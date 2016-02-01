@@ -16,8 +16,11 @@
     "MASTER_KEY": {
       "description": "A key that overrides all permissions. Keep this secret.",
       "value": "myMasterKey"
+    },
+    "MONGOLAB_URI": {
+      "description": "A key that overrides all permissions. Keep this secret.",
+      "value": "myMongolabUri"
     }
   },
-  "image": "heroku/nodejs",
-  "addons": ["mongolab"]
+  "image": "heroku/nodejs"
 }
